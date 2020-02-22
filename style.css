@@ -1,18 +1,106 @@
 
 body{
     font-family: 'Montserrat',sans-serif ;
+    margin: 0;
 }
-
-.name-hightlight{
-    color: blueviolet;
+section{
+    height: 500px;
+    padding-bottom: 125px;
+}
+p{
+    text-align: justify;
+    padding-right: 40px;
+    color: dimgray;
+}
+h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.consistent-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.salmon-hightlight{
+    color: SALMON;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
+    margin-top: 5%;
     padding-left: 2%;
 }
-.half-width img{
-    width: 100%;
+.middle-left{
+    margin-top: 100px;
+    margin-left: 100px;
 
+}
+.middle-right{
+    margin-top: 175px;
+    margin-right: 75px;
+    position: relative;
+    right: 125px;
+}
+.half-width img{
+    width: 75%;
+
+}
+.link-button{
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 5PX;
+    color: SALMON;
+    padding: 5px 20px;
+    margin: 15px 0PX;
+    border: 5px solid;
+    border-image-source: url(IMAGES/my-bg.png);
+    border-image-slice: 200 200;
+    BORDER: 1PX SOLID linear-gradient( 45deg, lightsalmon ,tomato);
+}
+.exp-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-title{
+    text-align: center;
+    height: 80px;
+    background-color: rgb(243, 242, 242);
+    line-height: 80px;
+    font-size: 30px;
+    
+}
+.exp-block{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    padding: 20px;
+    background-color: white;
+
+}
+#exp-border-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, salmon,tomato);
+    border-image-slice: 1;
+}
+#exp-border-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    height: 150px;
+    background-color: rgb(243, 242, 242);
+    line-height: 150px;
+
+}
+footer p{
+    text-align: center;
+    color: rgb(65, 65, 65);
+    
 }
